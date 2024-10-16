@@ -22,17 +22,17 @@ Ensure you have the required tools installed on your system:
 Run the script with the domain and scan mode as arguments:
 
 ```bash
-./scan.sh <domain> <scan_mode>
+./Subdomain_Finder.sh <domain> <scan_mode>
 ```
 ### 🔧 Parameters
-Parameter	Description :)
+Parameter	Description__
 - Domains:	The target domain to discover subdomains for.
 - scan_mode:	Choose between basic (Top 1000 ports scan) or high (Full port scan with OS and service detection).
 
 ### ✍️ Example 
 
 ```bash
-./scan.sh example.com <low or high>
+./Subdomain_Finder.sh example.com <low or high>
 ```
 
 ### 📝 Output
